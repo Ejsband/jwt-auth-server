@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+    context-path: /
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jwt
+    username: root
+    password: 141110024
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      schema: jwt
+application:
+  accessSecret: 9GwZ0QTr0DB7qqW3HXPe5odrvkYEsUBszKjuJ5r79fNJn+xZvWSqRjGxu+bmUq34CKQVetkdSqOXu0jmiSBk7g==
+  refreshSecret: LJfWhNSJWGsnPPXusHohUBc2S0hVqumHq/75x9hMMm/LlGuMF+WfF5qF2iib7orh4mvVbLK9SzofQnrPAVrV5Q==
+  accessTokenLifeInMillis: 600000
+  refreshTokenLifeInMillis: 2700000
