@@ -1,1 +1,1 @@
-rootProject.name = "main-jwt"
+rootProject.name = "jwt-auth-server"
