@@ -7,7 +7,6 @@ plugins {
 }
 
 group = "ru.jwt"
-version = "0.1"
 
 java {
 	toolchain {
